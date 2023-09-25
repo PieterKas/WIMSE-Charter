@@ -4,7 +4,7 @@ The Workload Identity in Multi-Service Environments (WIMSE) working group is cha
 
 # Background and Motivation
 
-The rise of diverse service platforms and the drive for business flexibility, cost-efficiency, resilience, and compliance make maintaining least privilege access for workloads increasingly complex. As a result of the adoption of micro-service architectures, services are composed of multiple workloads that need to authenticate to each other while making authroization decisions based on the original caller, their context, and the actions of other workloads that acted on a transaction. These workloads are often distributed across trust boundaries, without a single centralized controller managing the pieces.
+The rise of diverse service platforms and the drive for business flexibility, cost-efficiency, resilience, and compliance make maintaining least privilege access for workloads increasingly complex. As a result of the adoption of micro-service architectures, services are composed of multiple workloads that need to authenticate to each other while making authorization decisions based on the original caller, their context, and the actions of other workloads that acted on a transaction. These workloads are often distributed across trust boundaries, without a single centralized controller managing the pieces.
 
 While several standards and open-source projects offer foundational elements for secure workload identity, there remains a lack of clarity in their interoperation and combination. These technologies have been combined in a variety of ways in practice, but the solutions have existed in relative isolation. This ambiguity can lead to inconsistencies, interoperability issues, and potential security vulnerabilities.
 
