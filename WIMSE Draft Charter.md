@@ -1,12 +1,12 @@
 # Scope
 
-The Workload Identity in Multi-Service Environments (WIMSE) working group is chartered to address the challenges associated with implementing fine-grained, least privilege access control for  workloads deployed across multiple service platforms, spanning both public and private clouds. The work will leverage existing standards, open source projects, and practices, focusing on combining them in a coherent manner to deliver address multi-service workload identity use cases.
+The Workload Identity in Multi-Service Environments (WIMSE) working group is chartered to address the challenges associated with implementing fine-grained, least privilege access control for  workloads deployed across multiple service platforms, spanning both public and private clouds. The work will leverage existing standards, open source projects, and community practices, focusing on combining them in a coherent manner to deliver address multi-service workload identity use cases.
 
 # Background and Motivation
 
-The rise of diverse service platforms and the drive for business flexibility, cost-efficiency, resilience, and compliance make maintaining least privilege access for workloads increasingly complex. As a result of the adoption of micro-service architectures, services are composed of multiple workloads that need to authenticate to each other while making authroizations decisions based on the original caller, their context and the other workloads that acted on a transaction. These wrkloads are often distributed across trust boundaries.
+The rise of diverse service platforms and the drive for business flexibility, cost-efficiency, resilience, and compliance make maintaining least privilege access for workloads increasingly complex. As a result of the adoption of micro-service architectures, services are composed of multiple workloads that need to authenticate to each other while making authorization decisions based on the original caller, their context, and the actions of other workloads that acted on a transaction. These workloads are often distributed across trust boundaries, without a single centralized controller managing the pieces.
 
-While several standards and open-source projects, such as the SPIFFE/SPIRE project from the CNCF and standards like IETF's OAuth 2.0 and the OpenID Foundation Connect, offer foundational elements for secure workload identity, there remains a lack of clarity in their interoperation and combination. This ambiguity can lead to inconsistencies, interoperability issues, and potential security vulnerabilities.
+While several standards and open-source projects offer foundational elements for secure workload identity, there remains a lack of clarity in their interoperation and combination. These technologies have been combined in a variety of ways in practice, but the solutions have existed in relative isolation. This ambiguity can lead to inconsistencies, interoperability issues, and potential security vulnerabilities.
 
 # Goals and Deliverables
 
@@ -18,7 +18,7 @@ The WIMSE working group aims to:
 
 # Leadership
 
-[Chairs to be appointed]
+\[Chairs to be appointed\]
 
 # Meeting and Communication Information
 
@@ -28,12 +28,10 @@ The WIMSE working group will maintain an active mailing list, host periodic virt
 
 The WIMSE working group will closely collaborate with:
 
-Other IETF working groups that address topics related to identity, authentication, and authorization, including OAuth, SCIM, RATS and SECEVENT.
+* Other IETF working groups that address topics related to identity, authentication, and authorization, including OAuth, SCIM, and RATS.
+* The Cloud Native Computing Foundation (CNCF), particularly with regard to the SPIFFE/SPIRE project.
+* The OpenID Foundation and other organizations working on similar standards.
 
-The Cloud Native Computing Foundation (CNCF), particularly with regard to the SPIFFE/SPIRE project.
-
-The OpenID Foundation and other organizations working on similar standards.
-
-7. Duration
+# Duration
 
 The WIMSE working group is envisaged as an ongoing effort, given the evolving nature of service platforms and the continuous drive for enhanced security measures. However, periodic reviews will be conducted to reassess its relevance and objectives.
