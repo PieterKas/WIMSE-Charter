@@ -1,10 +1,10 @@
 # Scope
 
-The Workload Identity in Multi-Service Environments (WIMSE) working group is chartered to address the challenges associated with implementing fine-grained, least privilege access control for  workloads deployed across multiple service platforms, spanning both public and private clouds. The work will leverage existing standards, open source projects, and community practices, focusing on combining them in a coherent manner to deliver address multi-service workload identity use cases.
+The Workload Identity in Multi-Service Environments (WIMSE) working group is chartered to address the challenges associated with implementing fine-grained, least privilege access control for  workloads deployed across multiple service platforms, spanning both public and private clouds. The work will leverage existing standards, open source projects, and community practices, focusing on combining them in a coherent manner to address multi-service workload identity use cases such as those identified in the [Workload Identity Use Cases](https://datatracker.ietf.org/doc/draft-gilman-wimse-use-cases/) Internet Draft.
 
 # Background and Motivation
 
-The rise of diverse service platforms and the drive for business flexibility, cost-efficiency, resilience, and compliance make maintaining least privilege access for workloads increasingly complex. As a result of the adoption of micro-service architectures, services are composed of multiple workloads that need to authenticate to each other while making authorization decisions based on the original caller, their context, and the actions of other workloads that acted on a transaction. These workloads are often distributed across trust boundaries, without a single centralized controller managing the pieces.
+The rise of diverse service platforms and the drive for business flexibility, cost-efficiency, resilience, and compliance make maintaining least privilege access for workloads increasingly complex. As a result of the adoption of micro-service architectures, services are composed of multiple workloads that need to authenticate to each other while making authorization decisions based on the original caller, their context, and the actions of other workloads that acted on a transaction. These workloads are often distributed across trust boundaries, without a single centralized controller managing the different identities or authorization policies.
 
 While several standards and open-source projects offer foundational elements for secure workload identity, there remains a lack of clarity in their interoperation and combination. These technologies have been combined in a variety of ways in practice, but the solutions have existed in relative isolation. This ambiguity can lead to inconsistencies, interoperability issues, and potential security vulnerabilities.
 
@@ -28,7 +28,7 @@ The WIMSE working group will maintain an active mailing list, host periodic virt
 
 The WIMSE working group will closely collaborate with:
 
-* Other IETF working groups that address topics related to identity, authentication, and authorization, including OAuth, SCIM, and RATS.
+* Other IETF working groups that address topics related to identity, authentication, and authorization, including, but not limited to, OAuth, SCIM, and RATS.
 * The Cloud Native Computing Foundation (CNCF), particularly with regard to the SPIFFE/SPIRE project.
 * The OpenID Foundation and other organizations working on similar standards.
 
